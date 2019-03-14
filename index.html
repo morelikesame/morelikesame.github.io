@@ -1,31 +1,71 @@
  <!DOCTYPE html>
 <html>
 <head>
-<title>morelikesame</title>
+<title>Sami's Domain</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+<link rel="icon" href="omni.ico" type="image/ico" sizes="16x16">
 </head>
 <style>
 h1, h2, p {
     font-family: 'Roboto Slab', serif;
     color: #ffffff;
 }
+#title {
+	margin-bottom: -2px;
+	margin-top: -2px;
+	font-size: 50px;
+}
+#topbar {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
 a {
     font-family: 'Roboto Slab', serif;
-    color:deeppink;
+    color: deeppink;
 }
 body {
 	background-color: #0c0c0c;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width:600px;
 }
+
+ul, li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-right: 2px;
+	padding-left: 2px; 
+	display:inline;
+}
+
+iframe{
+	margin-bottom: 8px;
+}
+
+#yt {color:crimson;text-decoration: none;}
+#twit {color:deepskyblue;text-decoration: none;}
+#disc {color:#7289DA;text-decoration: none;}
 </style>
 
 <body>
-
-	<h1>Sami's Domain</h1>
-	<p>the site is a bit of a mess rn, haven't had time to make it look better (work in progress)</p>
-	</br>
+<div id="topbar">
+	<h1 id="title">Sami's Domain</h1>
+	<ul>
+		<li><a id="twit" href="https://twitter.com/morelikesame">Twitter</a></li>
+		<li><a id="yt" href="https://youtube.com/morelikesame">YouTube</a></li>
+		<li><a id="disc" href="https://discordapp.com/invite/jW5EQp6">Discord</a></li>
+</ul>  
+	</div>
+	<h2>Welcome to my dumb website</h2>
+	<p>The site is a bit of a mess rn, haven't had time to make it look better. (Work in progress)</p>
+	<br>
 	<h2>Omniscient - Discord RPC for Windows</h2>
 	<p> Omniscient is a simple program that takes the currently active window's title and sets it as a Rich Presence on Discord.</p>
+	<iframe width="500" height="315" src="https://www.youtube.com/embed/XUhVCoTsBaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<br>
 	<a href="omniscient_installer_v1.1.msi">Download Omniscient 1.1</a>
 	<p>Special thanks to Lachee on GitHub, Omniscient was made using their C# Discord RPC implementation.</p>
 	<a href="https://github.com/Lachee/discord-rpc-csharp">discord-rpc-csharp on GitHub</a>
