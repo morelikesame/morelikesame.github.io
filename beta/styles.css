@@ -117,3 +117,9 @@ img {
     color: rgb(145, 28, 255);
     background-color: rgb(255, 255, 255);
   }
+
+#link {
+    color: rgb(145, 28, 255);
+    background-color: #00000000;
+    width: 300px
+}
