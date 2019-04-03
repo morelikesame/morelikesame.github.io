@@ -1,4 +1,118 @@
 body {
-    background-color: rgb(24, 24, 24);
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #f9b8ff;
+	background: url(../bg.jpg) no-repeat fixed 50% 10%;
     color: rgb(255, 255, 255);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    color: rgb(255, 174, 231);
+    text-decoration-line: underline;
+  }
+  
+  .active {
+    text-decoration-line: underline;
+    color: rgb(255, 174, 231);
+  }
+  
+  .title {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    padding: 0px 16px;
+    margin-top: 14px;
+  }
+
+  .overlay{
+    background-color:rgb(24, 24, 24);
+    width:98%;
+    left:0px;
+    right:0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.content {
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.imgbox {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+img {
+    width: 80%;
+}
+
+.content a {
+
+    display: block;
+    background-color: rgb(145, 28, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 220px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.content a:hover {
+    color: rgb(145, 28, 255);
+    background-color: rgb(255, 255, 255);
+  }
+
+.imgbox a {
+
+    display: block;
+    background-color: rgb(145, 28, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    width: 120px;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.imgbox a:hover {
+    color: rgb(145, 28, 255);
+    background-color: rgb(255, 255, 255);
+  }
