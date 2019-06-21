@@ -1,21 +1,16 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
-    background-color: rgb(30, 26, 31);
-    background: url(images/bg.png) no-repeat fixed 80% 60%;
+    background-color: #f9b8ff;
+	background: url(bg.jpg) no-repeat fixed 80% 70%;
     color: rgb(255, 255, 255);
 }
 
 ul {
-    background-color: rgba(112, 29, 180, 0.774);
     list-style-type: none;
-    margin: -8px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    width: auto;
-    height: 50px;
+    width: 100%;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -54,15 +49,14 @@ ul {
   }
 
   .overlay{
-    background-color: rgb(30, 26, 31);
-    width: 100%;
-    margin: -8px;
+    background-color:rgb(24, 24, 24);
+    width:98%;
     left:0px;
     right:0px;
-    overflow: hidden;
-    width: auto;
-    bottom: 0;
-
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    margin-bottom: 25px;
 }
 
 .content {
@@ -87,6 +81,7 @@ img {
 }
 
 .content a {
+
     display: block;
     background-color: rgb(145, 28, 255);
     color: rgb(255, 255, 255);
@@ -105,6 +100,7 @@ img {
   }
 
 .imgbox a {
+
     display: block;
     background-color: rgb(145, 28, 255);
     color: rgb(255, 255, 255);
