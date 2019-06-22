@@ -1,22 +1,25 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
     background-color: rgb(30, 26, 31);
-    background: url(images/bg.png) no-repeat fixed 80% 60%;
+    
     color: rgb(255, 255, 255);
 }
 
 ul {
-    background-color: rgba(112, 29, 180, 0.774);
-    list-style-type: none;
-    margin: -8px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-    overflow: hidden;
     width: auto;
+    margin: -8px;
+    margin-bottom: -50px;
+    left:0px;
+    right:0px;
+    
+    padding-left:10px;
+    padding-right: 10px;
+    
+    background-color: rgba(40, 10, 65, 0.774);
+    list-style-type: none;
+    overflow: hidden;
     height: 50px;
-    position: -webkit-sticky; /* Safari */
+    
     position: sticky;
     top: 0;
   }
@@ -42,44 +45,40 @@ ul {
     text-decoration-line: underline;
     color: rgb(255, 174, 231);
   }
-  
-  .title {
-    color: rgb(255, 255, 255);
-    display: block;
-    text-align: center;
-    text-decoration: none;
-    float: left;
-    padding: 0px 16px;
-    margin-top: 14px;
-  }
 
   .overlay{
-    background-color: rgb(30, 26, 31);
     width: 100%;
     margin: -8px;
     left:0px;
     right:0px;
     overflow: hidden;
-    width: auto;
-    bottom: 0;
-
 }
 
 .content {
     text-align: center;
-	margin-left: auto;
+	  margin-left: auto;
     margin-right: auto;
     padding: 10px;
     max-width: 800px;
+    height: 100%;
+    overflow: hidden;
 }
 
 .imgbox {
+
+    width: auto;
+    margin: -8px;
+    left:0px;
+    right:0px;
+
+    padding-top: 100px;
+    padding-bottom: 80px;
+
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 110px;
-    margin-bottom: 110px;
+
+    margin-bottom: 20px;
+    background: url(images/bg.png) repeat fixed 80% 60%;
 }
 
 img {
@@ -91,7 +90,7 @@ img {
     background-color: rgb(145, 28, 255);
     color: rgb(255, 255, 255);
     text-align: center;
-	margin-left: auto;
+	  margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
     width: 220px;
@@ -127,3 +126,4 @@ img {
     background-color: #00000000;
     width: 300px
 }
+
