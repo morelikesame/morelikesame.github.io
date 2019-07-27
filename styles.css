@@ -1,8 +1,8 @@
 body {
     font-family: 'Libre Franklin', sans-serif;
-    background-color: rgb(30, 26, 31);
+    background-color: #1a1a1a;
     
-    color: rgb(255, 255, 255);
+    color: #ffffff;
 }
 
 ul {
@@ -15,7 +15,7 @@ ul {
     padding-left:10px;
     padding-right: 10px;
     
-    background-color: rgba(40, 10, 65, 0.774);
+    background-color: rgba(34, 34, 34, 0.692);
     list-style-type: none;
     overflow: hidden;
     height: 50px;
@@ -37,13 +37,13 @@ ul {
   }
   
   li a:hover:not(.active) {
-    color: rgb(255, 174, 231);
+    color: #ffaee7;
     text-decoration-line: underline;
   }
   
   .active {
     text-decoration-line: underline;
-    color: rgb(255, 174, 231);
+    color: #ffaee7;
   }
 
   .overlay{
@@ -78,7 +78,17 @@ ul {
     display: block;
 
     margin-bottom: 20px;
-    background: url(images/bg.png) repeat fixed 80% 60%;
+    background-color: rgb(145, 28, 255); /* For browsers that do not support gradients */
+    background: linear-gradient(241deg, #ae37cc, #2522bd, #22bcbd, #6322bd, #b185ee);
+    background-size: 1000% 1000%;
+
+    animation: big-boy 60s ease infinite;
+
+    }
+    @keyframes big-boy { 
+      0%{background-position:0% 19%}
+      50%{background-position:100% 82%}
+      100%{background-position:0% 19%}
 }
 
 img {
@@ -87,8 +97,8 @@ img {
 
 .content a {
     display: block;
-    background-color: rgb(145, 28, 255);
-    color: rgb(255, 255, 255);
+    background-color: #7846a7;
+    color: #ffffff;
     text-align: center;
 	  margin-left: auto;
     margin-right: auto;
@@ -99,14 +109,14 @@ img {
   }
   
 .content a:hover {
-    color: rgb(145, 28, 255);
+    color: #7846a7;
     background-color: rgb(255, 255, 255);
   }
 
 .imgbox a {
     display: block;
-    background-color: rgb(145, 28, 255);
-    color: rgb(255, 255, 255);
+    background-color: #00000063;
+    color: #ffffff;
     text-align: center;
 	margin-left: auto;
     margin-right: auto;
@@ -117,12 +127,12 @@ img {
   }
   
 .imgbox a:hover {
-    color: rgb(145, 28, 255);
-    background-color: rgb(255, 255, 255);
+    color: #2c1d3a;
+    background-color: #ffffff;
   }
 
 #link {
-    color: rgb(145, 28, 255);
+    color: #7846a7;
     background-color: #00000000;
     width: 300px
 }
