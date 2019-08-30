@@ -136,4 +136,31 @@ img {
     background-color: #00000000;
     width: 300px
 }
+.imgbox_providence {
+
+  width: auto;
+  margin: -8px;
+  left:0px;
+  right:0px;
+
+  padding-top: 110px;
+  padding-bottom: 90px;
+
+  text-align: center;
+  display: block;
+
+  margin-bottom: 20px;
+  background-color: rgb(145, 28, 255); /* For browsers that do not support gradients */
+  background: linear-gradient(241deg, #ff1cb3, #28eaf8, #ffcb22, #f1343e, #b185ee);
+  background-size: 1000% 1000%;
+
+  animation: big-boy 60s ease infinite;
+
+  }
+  @keyframes big-boy { 
+    0%{background-position:0% 19%}
+    50%{background-position:100% 82%}
+    100%{background-position:0% 19%}
+}
+
 
