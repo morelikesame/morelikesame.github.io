@@ -1,0 +1,10 @@
+Omniscient 1.4 (Summer Update) Changelog
+23:13 - 27.7.2019 (Helsinki Time)
+
+- Minor UI Tweaks.
+- Fixed bug with having multiple instances open.
+- Rewrote the App title updating system.
+- Incognito Mode added.
+- Word Blacklist added.
+- New app icon.
+- New icon pack.

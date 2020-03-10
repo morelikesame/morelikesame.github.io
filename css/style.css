@@ -1,0 +1,74 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #201f22;
+}
+
+th {
+    color: #6ad2dd;    
+}
+
+.homejumbo {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+    border-radius: 0;
+    padding-top: 0;
+
+    background-color: #6ad2dd;
+    background: linear-gradient(180deg, #6ad2dd, #5fecb5, #5fecb5, #6ad2dd,#5fecb5);
+    background-size: 600% 600%;
+
+    animation: bigboye 50s ease infinite;
+}
+
+.dljumbo {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    border-radius: 0;
+    padding-top: 0;
+
+    background-color: #c66add;
+    background: linear-gradient(180deg, #c66add, #6c6add, #ec5fb6, #c66add, #6c6add);
+    background-size: 600% 600%;
+
+    animation: bigboye 50s ease infinite;
+}
+
+.infojumbo {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    border-radius: 0;
+    padding-top: 0;
+
+    background-color: #6aa0dd;
+    background: linear-gradient(180deg, #6a9cdd, #6ad9dd, #b8fdff, #6ad5dd, #6c6add);
+    background-size: 600% 600%;
+
+    animation: bigboye 50s ease infinite;
+}
+
+.specialthx {
+    background-color: #6edd6a;
+    background: linear-gradient(180deg, #78dd6a, #6accdd, #5f8cec, #b36add, #dd6a79, #ddaf6a, #78dd6a);
+    background-size: 300% 300%;
+
+    animation: bigboye 30s ease infinite;
+}
+
+.discthx {
+    background-color: #7289DA;
+}
+
+@keyframes bigboye {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.fa-windows {
+    padding-right: 10px;
+}
