@@ -8,8 +8,6 @@ th {
 }
 
 .homejumbo {
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-
     border-radius: 0;
     padding-top: 0;
 
@@ -21,7 +19,6 @@ th {
 }
 
 .dljumbo {
-    clip-path: polygon(0 87%, 16% 95%, 29% 83%, 49% 84%, 65% 76%, 76% 85%, 92% 83%, 100% 68%, 100% 0, 51% 0, 0 0);
     border-radius: 0;
     padding-top: 0;
 
@@ -33,7 +30,6 @@ th {
 }
 
 .infojumbo {
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 83%);
     border-radius: 0;
     padding-top: 0;
 
@@ -68,4 +64,8 @@ th {
 
 .fa-windows {
     padding-right: 10px;
+}
+
+.navbar {
+    padding: 0.7em;
 }
