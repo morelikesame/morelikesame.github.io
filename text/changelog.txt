@@ -1,10 +1,29 @@
-Omniscient 1.4 (Summer Update) Changelog
-23:13 - 27.7.2019 (Helsinki Time)
+Omniscient 1.5 (THE LONG OVERDUE UPDATE) Changelog
+21:12 - 7.11.2020 (Helsinki Time)
 
-- Minor UI Tweaks.
-- Fixed bug with having multiple instances open.
-- Rewrote the App title updating system.
-- Incognito Mode added.
-- Word Blacklist added.
-- New app icon.
-- New icon pack.
++ New UI (Matching Windows 10 more)
++ Revamped app detection (almost 100% accurate now)
++ New info section
++ Updated contact info
++ Improved Run at Startup button
++ NEW ICON
++ NEW ICON THEME
++ Added Icons for:
+Groove Music 
+Brave Browser 
+AIMP 
+Microsoft Edge (Chromium)
+VSDC Video Editor
+MS Teams
+Zoom
+Photoshop
+VS Code
+Calculator
+Windows Explorer
+Media Player Classic
+
+- Removed Original theme
+- Removed About window
+- Removed Icons of:
+Firefox Dev/Firefox Nightly
+MS Edge (Non Chromium)
