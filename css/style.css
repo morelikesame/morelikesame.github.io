@@ -1,6 +1,6 @@
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: #1b1b1b;
+    background-color: #242424;
     min-height: 100vh;
 }
 
@@ -8,32 +8,43 @@ th {
     color: #6ad2dd;    
 }
 
+
+.abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .homejumbo {
     padding-top: 0.5em;
     border-radius: 0;
-    background-image: url('../img/sitebannerhalf.png');
+    background-image: url('../img/sitebannerhalf.png'), linear-gradient(#7263a3, #5f6e96);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
-    background-size: auto;
+    background-size: 100%;
     background-color: #000000;
-    clip-path: polygon(
-        0 0,
-        100% 0,
-        100% 100%,
-        0 calc(100% - 6vw)
-      );
 }
 
 .dicLogo {
     width:10em;
-    height: auto;
+    height:10em;
+    float: left;
+}
+
+.gitLogo {
+    width:10em;
+    height: 10em;
+    float: right;
+}
+
+.left {
     float: left;
 }
 
 .homejumbo .contentt {
     padding-top: 7em;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
     align-items: center;
 }
 
@@ -72,12 +83,13 @@ th {
 }
 
 #infoSection {
-    padding-top: 5em;
+    padding-top: 6em;
+    padding-bottom: 4em;
+    background-color: #3f3f3f;
+}
+
+#opSrcSection {
     background-color: #2e2e2e;
-    clip-path: polygon(
-        0 6vw,
-        100% 0,
-        100% 100%,
-        0 100%
-    );
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
