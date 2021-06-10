@@ -38,17 +38,16 @@
 <body>
     <div class="container-fluid jumbotron homejumbo">
         <!–– NAVBAR ––>
-            <nav class="container navbar navbar-expand-md navbar-dark">
+            <nav class="container navbar navbar-expand-md navbar-light">
                 <!–– NAVBAR BRANDING ––>
-                    <a class="navbar-brand mr-1" href="index.html"><img src="img/omni_logo.svg" width="30" height="30" alt=""></a>
-                    <a class="navbar-brand" href="index.html">OMNISCIENT</a>
+                    <a class="navbar-brand mr-1" href="index.html"><img class="brandLogo" src="img/favicon.ico" width="30" height="30" alt=""></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <!–– NAVBAR CENTER BUTTONS ––>
-                            <ul class="navbar-nav abs-center-x">
+                            <ul class="navbar-nav">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="index.html">HOME</a>
                                 </li>
@@ -73,7 +72,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" target="_blank"
-                                            href="https://www.twitter.com/sIsTooShort/"><span><i
+                                            href="https://www.twitter.com/twtsamee/"><span><i
                                                     class="fab fa-twitter"></i></span></a>
                                     </li>
                                     <li class="nav-item">
@@ -87,11 +86,14 @@
                                 </ul>
                     </div>
             </nav>
+            
             <!–– JUMBOTRON CONTENT ––>
-                <div class="contentt container text-white">
-                    <h1 class="display-5">RICH PRESENCE FOR WINDOWS APPS</h1>
-                    <p class="lead pb-3">Your privacy is dead, you can thank me later :)</p>
-                    <a class="btn btn-light" data-toggle="modal" data-target="#dlModal" role="button">GET OMNISCIENT</a>
+                
+                <div class="contentt container">
+                    <h1 class="display-5">DISCORD RICH PRESENCE FOR WINDOWS APPS</h1>
+                    <p class="lead pb-3">Your privacy is dead, you can thank me later.</p>
+                    <a class="btn btn-dark" data-toggle="modal" data-target="#dlModal" role="button">GET OMNISCIENT</a>
+                    
                 </div>
     </div>
 
@@ -110,10 +112,11 @@
                 </div>
                 <!–– Definition of Omniscient the App ––>
                     <div class="col-md-9 text-white">
+                        <div class="alert alert-info text-center">
+                            Omniscient is currently not in active development.<br> It still works as intended, and I will fix bugs, if those appear.
+                        </div>
                         <h1 class="display-5">WHAT IS OMNISCIENT?</h1>
-                        <p class="lead text-white text-justify text-right">It's a simple, lightweight app (even with all
-                            the spaghetti code lol) that makes your current window appear as your Discord status (Rich
-                            Presence)</p>
+                        <p class="lead text-white text-justify text-right">It's a simple, lightweight app that makes your current active window appear as your Discord status, for example when you are drawing a masterpiece in Microsoft Paint or browsing the web on Google Chrome you can have it as a status on discord for everyone to see 😉</p>
                     </div>
             </div>
             <!–– COMPATIBILITY ––>
@@ -133,12 +136,12 @@
         <div class="container">
             <div class="row pt-5 pb-5 text-right">
                 <div class="col-md-9 text-white pb-2">
-                    <h1 class="display-5 text-left">WANNA CONTRIBUTE?</h1>
+                    <h1 class="display-5 text-left">WANT TO CONTRIBUTE?</h1>
                     <p class="lead text-white text-justify text-left">If you wanna contribute, here's the link to the repo.
                         <br>(I am sorry in advance for the horrid spaghetti that you'll encounter there...)
                     </p>
                     <a href="https://github.com/justsame/omniscient" target="_blank" class="btn btn-light left"><span><i
-                                class="fab fa-github"></i></span> Github Repo</a>
+                                class="fab fa-github"></i></span> Repository</a>
                 </div>
                 <div class="col-md-3 text-white pb-2">
                     <img class="d-none d-md-block img-fluid gitLogo" src="img/gitico.png" alt="githublogo">
