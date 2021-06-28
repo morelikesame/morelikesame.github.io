@@ -1,3 +1,3 @@
-<h1>omniscient website</h1>
+<h1>my github io site</h1>
 <br>
-<p>a website i have created for a program i have created</p>
+<p>Used to be mainly for Omniscient, but now there also is other things here</p>
