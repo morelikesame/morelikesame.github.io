@@ -1,0 +1,83 @@
+.topbar {
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 235, 227);
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.253);
+    margin-bottom: 1em;
+}
+
+.topbar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.topbar li {
+    padding: .7em .15em .7em .15em;
+    display: block;
+}
+
+.topbar li a {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    padding: .25em .5em .25em .5em;
+}
+
+.topbar .branding {
+    background: -webkit-linear-gradient(rgb(156, 210, 255), rgb(255, 100, 221));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.topbar li a:hover {
+    background-color: rgb(216, 180, 165);
+    color: rgb(255, 255, 255);
+    border-radius: .4em;
+    padding: .25em .5em .25em .5em;
+  }
+
+.alexwrapper {
+    height: auto;
+    width: auto;
+}
+
+.alexwrapper h1 {
+    font-weight: 900;
+    font-size: 5em;
+    font-family: 'Teko', sans-serif;
+    -webkit-text-stroke: 3px #000000;
+}
+
+.toptextbottomtext {
+    width: auto;
+    height: auto;
+    padding: .4em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.alex {
+    display: flex;
+    height: 20em;
+    width: auto;
+    background-image: url('../img/alex_n.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.alex:hover {
+    background-image: url('../img/alex.png');
+    transition: 5s;
+}
