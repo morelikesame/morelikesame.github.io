@@ -1,353 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="img/favicon.ico" type="image/ico" sizes="16x16">
-    <!-- BOOTSTRAP -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <!-- STYLESHEET -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- RUBIK FONT FAMILY -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <!-- FONTAWESOME -->
-    <script src="https://kit.fontawesome.com/834ceff93d.js" crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LGKC4QX16K"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-LGKC4QX16K');
-    </script>
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Omniscient // Discord Rich Presence for Windows" />
-    <meta property="og:description" content="Show your current window as a status on Discord." />
-    <meta property="og:url" content="https://justsame.github.io/" />
-    <meta property="og:image" content="https://justsame.github.io/img/omniIcon.png" />
-    <meta content="#6e83ff" data-react-helmet="true" name="theme-color">
-    <meta name="author" content="JUSTSAME">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omniscient</title>
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
-<body>
-    <div class="container-fluid jumbotron homejumbo">
-        <!–– NAVBAR ––>
-            <nav class="container navbar navbar-expand-md navbar-light">
-                <!–– NAVBAR BRANDING ––>
-                    <a class="navbar-brand mr-1" href="index.html"><img class="brandLogo" src="img/favicon.ico" width="30" height="30" alt=""></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <!–– NAVBAR CENTER BUTTONS ––>
-                            <ul class="navbar-nav">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">HOME</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#info">INFO</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="modal" data-target="#infoModal"
-                                        role="button">COMPATIBILITY</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" data-toggle="modal" data-target="#dlModal"
-                                        role="button">DOWNLOAD</a>
-                                </li>
-                            </ul>
-                            <!–– NAVBAR RIGHT BUTTONS ––>
-                                <ul id="socials" class="navbar-nav ml-auto">
-                                    <li class="nav-item">
-                                        <a class="nav-link" target="_blank"
-                                            href="https://www.youtube.com/justsame/"><span><i
-                                                    class="fab fa-youtube"></i></span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" target="_blank"
-                                            href="https://www.twitter.com/twtsamee/"><span><i
-                                                    class="fab fa-twitter"></i></span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" target="_blank" href="https://discord.gg/Er3PgfB"><span><i
-                                                    class="fab fa-discord"></i></span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" target="_blank" href="https://github.com/justsame/omniscient"><span><i
-                                                    class="fab fa-github"></i></span></a>
-                                    </li>
-                                </ul>
-                    </div>
-            </nav>
-            
-            <!–– JUMBOTRON CONTENT ––>
-                
-                <div class="contentt container">
-                    <h1 class="display-5">DISCORD RICH PRESENCE FOR WINDOWS APPS</h1>
-                    <p class="lead pb-3">Your privacy is dead, you can thank me later.</p>
-                    <a class="btn btn-dark" data-toggle="modal" data-target="#dlModal" role="button">GET OMNISCIENT</a>
-                    
-                </div>
-    </div>
-
-    <div class="container">
-        <!–– WHAT IS OMNISCIENT????? I DONT KNOWWW AAAAA ––>
-            <div id="info" class="row pt-5 pb-5 text-right">
-                <div class="col-md-3 md-none text-white">
-                    <!–– Definition of Omniscient the Word ––>
-                        <div id="defineCard" class="card text-white bg-dark mb-4">
-                            <div id="defineCard" class="card-body">
-                                <h5 class="card-title">omniscient</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">/ɒmˈnɪsɪənt/</h6>
-                                <p class="card-text"><i>adjective</i><br>knowing everything.<br></p>
-                            </div>
-                        </div>
-                </div>
-                <!–– Definition of Omniscient the App ––>
-                    <div class="col-md-9 text-white">
-                        <div class="alert alert-info text-center">
-                            Omniscient is currently not in active development.<br> It still works as intended, and I will fix bugs, if those appear.
-                        </div>
-                        <h1 class="display-5">WHAT IS OMNISCIENT?</h1>
-                        <p class="lead text-white text-justify text-right">It's a simple, lightweight app that makes your current active window appear as your Discord status, for example when you are drawing a masterpiece in Microsoft Paint or browsing the web on Google Chrome you can have it as a status on discord for everyone to see 😉</p>
-                    </div>
-            </div>
-            <!–– COMPATIBILITY ––>
-                <div class="row pt-5 pb-5">
-                    <div class="col-md-12 text-white">
-                        <h1 class="display-5">COMPATIBILITY</h1>
-                        <p class="lead text-white text-justify pb-5">Every single app will show up as your status on discord,
-                            but only around 25 have icons that show up too in the status.
-                            <br> Currently compatible apps are listed on the <span><a data-toggle="modal"
-                                    data-target="#infoModal" href="" role="link">Info</a></span> section.
-                        </p>
-                        </p>
+<body class="bg-dark">
+    <!-- navbar -->
+    <nav class="container-fluid navbar navbar-expand navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">JUSTSAME</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- navbar end -->
+    <div class="container-fluid p-4">
+        <div class="row">
+            <a class="col-md-4" href="./omniscient/index.html">
+                <div class="card text-white shadow">
+                    <img src="./cards/omni.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Omniscient</h5>
+                        <p class="card-text">Discord RPC for Windows</p>
                     </div>
                 </div>
-    </div>
-    <section id="opSrcSection">
-        <div class="container">
-            <div class="row pt-5 pb-5 text-right">
-                <div class="col-md-9 text-white pb-2">
-                    <h1 class="display-5 text-left">WANT TO CONTRIBUTE?</h1>
-                    <p class="lead text-white text-justify text-left">If you wanna contribute, here's the link to the repo.
-                        <br>(I am sorry in advance for the horrid spaghetti that you'll encounter there...)
-                    </p>
-                    <a href="https://github.com/justsame/omniscient" target="_blank" class="btn btn-light left"><span><i
-                                class="fab fa-github"></i></span> Repository</a>
+            </a>
+            <a class="col-md-4" href="./marko/index.html">
+                <div class="card text-white shadow">
+                    <img src="./cards/mrk.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">marko</h5>
+                        <p class="card-text">Discord bot for generating sentences</p>
+                    </div>
                 </div>
-                <div class="col-md-3 text-white pb-2">
-                    <img class="d-none d-md-block img-fluid gitLogo" src="img/gitico.png" alt="githublogo">
+            </a>
+            <a class="col-md-4" href="./alexquotes/index.html">
+                <div class="card text-white shadow">
+                    <img src="./cards/alex.png" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Alex Quote Generator</h5>
+                        <p class="card-text">Generate quotes from Alex YIIK (not affiliated).</p>
+                    </div>
                 </div>
-            </div>
-    </section>
-    <section id="infoSection">
-        <div class="container">
-            <div class="row pb-5 text-right">
-                <div class="col-md-3 text-white pb-2">
-                    <img class="d-none d-md-block img-fluid dicLogo" src="img/dicico.png" alt="discordlogo">
-                </div>
-                <div class="col-md-9 text-white pb-2">
-                    <h1 class="display-5">QUESTIONS?</h1>
-                    <p class="lead text-white text-justify text-right">Join the Omniscient Discord Server, if you have
-                        any questions about the app or if you have a feature you'd like to suggest.</p>
-                    <a href="https://discord.gg/Er3PgfB" target="_blank" class="btn btn-light"><span><i
-                                class="fab fa-discord"></i></span> Join the server</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-white">
-                    <h1 class="display-5">INTERESTED?</h1>
-                    <p class="lead text-white text-justify">You can download Omniscient by clicking Download on the top
-                        bar, or just pressing <span><a data-toggle="modal" data-target="#dlModal" href=""
-                                role="link">Download</a></span> here.
-                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Welcome to the site</h1>
+                <p>this site is still under construction, but the main thing works.</p>
             </div>
         </div>
-    </section>
-    <!–– DOWNLOAD APP MODAL ––>
-        <div class="modal fade text-white text-center" id="dlModal" tabindex="-1" aria-labelledby="DownloadModal"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="dlModalBG modal-body">
-                        <img id="logo" class="pt-4 pb-4 img-fluid" src="img/favicon.ico" alt="">
-                        <h2 class="pt-5"><b>Download Omniscient</b></h2>
-                        <p class="pt-0 pb-3"><span><i class="fab fa-windows"></i></span> Windows 7 or newer with .NET
-                            Framework 4.7</p>
-                        <div class="mb-4">
-                            <a href="installers/install_omniscient_1.5.msi" role="button" class="btn btn-light"><span><i
-                                        class="fas fa-download"></i></span> Download</a>
-                            <a href="text/changelog.txt" target="_blank" role="button" class="btn btn-light"><span><i
-                                        class="fas fa-file-alt"></i></span> Changelog</a>
-                            <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!–– INFO MODAL ––>
-            <div class="modal fade text-white text-center" id="infoModal" tabindex="-1" aria-labelledby="InfoModal"
-                aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-body">
-                            <h2 class="pt-2"><b>Compatible apps</b></h2>
-                            <p>List of all apps that currently have an icon.</p>
-                            <div class="accordion" id="compatibleApps">
-                                <div class="card bg-dark text-white">
-                                    <div class="card-header" id="headingOne">
-                                        <h2 class="mb-0">
-                                            <button class="btn btn-link" type="button" data-toggle="collapse"
-                                                data-target="#appListCollapse" aria-expanded="true"
-                                                aria-controls="appListCollapse">
-                                                Compatible apps <span><i class="fas fa-caret-down"></i></span>
-                                            </button>
-                                        </h2>
-                                    </div>
-                                    <div id="appListCollapse" class="collapse" aria-labelledby="headingOne"
-                                        data-parent="#compatibleApps">
-                                        <div class="card-body">
-                                            <table class="table table-dark">
-                                                <!–– COMPATIBLE APPS TABLE ––>
-                                                    <tbody>
-                                                        <tr>
-                                                            <th>Browsers</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Google Chrome</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Microsoft Edge (Chromium)</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Firefox</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Opera</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Brave Browser</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>Artistic</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Microsoft Paint</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Adobe Photoshop</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>paint.net</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>GIMP</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Inkscape</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>Video Editing</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Premiere Pro</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>After Effects</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>VEGAS Pro</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>VSDC Video Editor</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>Media players</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>VLC Media Player</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Media Player Classic</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>AIMP</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Groove Music</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>Coding and IDE's</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Visual Studio</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Visual Studio Code</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Notepad++</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Unity</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th>Messengers and misc.</th>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Discord</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Zoom</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Microsoft Teams</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>WhatsApp</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Telegram</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Steam</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Calculator</td>
-                                                        </tr>
-                                                    </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <h2 class="pt-2 pb-2"><b>Credits</b></h2>
-                            <p><b>discord-rpc-csharp made by Lachee</b></p>
-                            <p>Without their C# Discord RPC implementation Omniscient wouldnt be possible.</p>
-                            <a href="https://github.com/Lachee/discord-rpc-csharp" target="_blank"
-                                class="btn btn-light mb-2"><span><i class="fab fa-github"></i></span>
-                                discord-rpc-csharp</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!–– NECESSARY SCRIPT FILES FOR JQUERY AND BOOTSTRAP ––>
-                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                    crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-                    crossorigin="anonymous"></script>
-                <script src="js/js.js"></script>
+    </div>
+    <!-- Bootstrap 5.0.2 - JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="marko.js"></script>
 </body>
 
 </html>
